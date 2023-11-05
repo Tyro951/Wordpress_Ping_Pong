@@ -1,0 +1,74 @@
+.post-type-archive-bois .page-header{
+    min-height: 250px;
+    background-image: linear-gradient(to right, #10bdba, #105a0c);  
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-type-archive-bois .page-header h1{
+    font-size: 42px;
+    margin-bottom: 0.2em;
+    line-height: 1;
+}
+
+.post-type-archive-bois .page-header p{
+    font-size: 24px;
+    display: flex;
+}
+
+.bois-card img {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+}
+.bois-card .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bois-card_content {
+    padding: 20px;
+    margin: 0;
+    top: auto;
+}
+
+.bois-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1280px;
+    margin: 80px auto;
+}
+
+.bois-card_content a{
+    display: block;
+    width: 100%;
+    background-color: rgb(68, 172, 99);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 8px;
+}
+
+.bois-card{
+    border: 1px rgb(35, 35, 35) solid;
+    border-radius: 7.5%;
+}
+
+.bois-card_content a:hover{
+    color: white;
+    background-color: rgb(47, 123, 70);
+}
+
+.bois-card_content a:active{
+    color: white;
+}
+
+.bois-card_content a:visited{
+    color: white;
+}
+

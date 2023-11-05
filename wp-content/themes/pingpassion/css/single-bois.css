@@ -1,0 +1,23 @@
+.single-bois .single-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.single-bois .single-card_content {
+    min-height: 250px;
+    background-image: linear-gradient(to right, #10bdba, #105a0c);  
+    color: white;
+    font-size: 48px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.single-bois p{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
